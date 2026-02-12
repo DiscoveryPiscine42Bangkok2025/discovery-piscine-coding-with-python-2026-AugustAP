@@ -10,5 +10,5 @@ for x in arr:
     if x > 5:
         new_arr.append(x + 2)
 
-print(f"Original array: {arr}")
-print(f"New array: {new_arr}")
+print(arr)
+print(set(arr))
